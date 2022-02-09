@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gatsbyawsamplify-dev-162827-authRole",
+      "UnauthRoleArn": "arn:aws:iam::011526018712:role/amplify-gatsbyawsamplify-dev-162827-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::011526018712:role/amplify-gatsbyawsamplify-dev-162827-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-gatsbyawsamplify-dev-162827-deployment",
+      "UnauthRoleName": "amplify-gatsbyawsamplify-dev-162827-unauthRole",
+      "StackName": "amplify-gatsbyawsamplify-dev-162827",
+      "StackId": "arn:aws:cloudformation:us-west-1:011526018712:stack/amplify-gatsbyawsamplify-dev-162827/d6c3fad0-8936-11ec-9436-02f1aa95b7b5",
+      "AmplifyAppId": "d2shjojqklllyu"
+    }
+  },
+  "auth": {
+    "gatsbyawsamplifyb97ebb94": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-gatsbyawsamplify-dev-162827-deployment/amplify-cfn-templates/auth/gatsbyawsamplifyb97ebb94-cloudformation-template.json",
+        "logicalId": "authgatsbyawsamplifyb97ebb94"
+      },
+      "lastPushTimeStamp": "2022-02-09T00:03:45.378Z",
+      "output": {
+        "UserPoolId": "us-west-1_NuOQ4TMdn",
+        "AppClientIDWeb": "204ras4kleraai45trta297mf7",
+        "AppClientID": "61m0s8gu5k973laigbtpunotil",
+        "IdentityPoolId": "us-west-1:44eaf7f9-edff-4ab6-9fd1-027673302b10",
+        "UserPoolArn": "arn:aws:cognito-idp:us-west-1:011526018712:userpool/us-west-1_NuOQ4TMdn",
+        "IdentityPoolName": "gatsbyawsamplifyb97ebb94_identitypool_b97ebb94__dev",
+        "UserPoolName": "gatsbyawsamplifyb97ebb94_userpool_b97ebb94"
+      },
+      "lastPushDirHash": "L03ZGVjU/DUh1r+rU+vLLMIkw4Y="
+    }
+  }
+}
