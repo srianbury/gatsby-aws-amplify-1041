@@ -1,3 +1,9 @@
+## Setup
+1. Created a new gatsby project with `gatsby new gatsby-aws-amplify`
+2. Followed the steps for the [amplify react tutorial](https://docs.amplify.aws/start/getting-started/setup/q/integration/react/)
+3. `amplify init`
+4. 
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
